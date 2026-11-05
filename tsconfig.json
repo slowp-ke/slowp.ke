@@ -1,10 +1,12 @@
 {
 	"compilerOptions": {
 		"paths": {
-			"~/*": ["./src/*"]
+			"#/*": [
+				"./src/*"
+			]
 		}
 	},
-	"exclude": ["dist"],
-	"extends": "astro/tsconfigs/strict",
-	"include": [".astro/types.d.ts", "**/*"]
+	"extends": [
+		"@wren-js/preact/tsconfig/strict"
+	]
 }

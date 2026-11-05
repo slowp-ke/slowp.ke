@@ -1,0 +1,21 @@
+import "./___root.css";
+
+const RootLayout: Wren.Layout = ({ children }) => (
+	<html lang="en">
+		<head>
+			<meta charset="utf-8" />
+			<meta content="width=device-width, initial-scale=1" name="viewport" />
+			<meta content="Slowpoke" name="description" />
+			<meta content="#f9ded5" name="theme-color" />
+			<meta content="#000000" media="(prefers-color-scheme: dark)" name="theme-color" />
+
+			<meta content="light dark" name="color-scheme" />
+
+			<title>Slowpoke</title>
+			<link href="/favicon.svg" rel="icon" type="image/svg+xml" />
+			<link href="https://slowp.ke" rel="canonical" />
+		</head>
+		<body>{children}</body>
+	</html>
+);
+export default RootLayout;

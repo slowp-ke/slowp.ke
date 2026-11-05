@@ -1,0 +1,21 @@
+:root {
+	touch-action: manipulation;
+}
+
+.slowpoke {
+	position: fixed;
+	inset: 0;
+	width: 24px;
+	height: 32px;
+	margin: auto;
+	background-image:
+		url("../assets/slowpoke/Idle-Anim.png"), url("../assets/slowpoke/Walk-Anim.png");
+	background-size: auto, 0;
+	image-rendering: pixelated;
+	scale: 1;
+	will-change: translate;
+}
+
+.walking {
+	background-size: 0, auto;
+}

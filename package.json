@@ -1,39 +1,27 @@
 {
-	"devDependencies": {
-		"@eslint/js": "10.0.1",
-		"@types/node": "26.6.4",
-		"@typescript-eslint/parser": "8.71.0",
-		"astro": "7.3.5",
-		"eslint": "10.11.0",
-		"eslint-config-prettier": "10.1.8",
-		"eslint-plugin-astro": "3.2.1",
-		"eslint-plugin-perfectionist": "5.12.1",
-		"eslint-plugin-prettier": "5.5.6",
-		"eslint-plugin-unicorn": "76.0.0",
-		"prettier": "3.9.9",
-		"prettier-plugin-astro": "1.1.0",
-		"typescript": "^6.0.3",
-		"typescript-eslint": "8.71.0",
-		"wrangler": "4.147.0"
-	},
-	"devEngines": {
-		"packageManager": {
-			"name": "pnpm",
-			"onFail": "download",
-			"version": "12.9.0"
-		}
-	},
-	"engines": {
-		"node": "^26"
-	},
-	"scripts": {
-		"astro": "astro",
-		"build": "astro build",
-		"dev": "astro dev",
-		"lint": "prettier --write . && eslint .",
-		"preview": "astro build && wrangler dev --local",
-		"start": "astro dev",
-		"wrangler": "wrangler"
-	},
-	"type": "module"
+  "name": "slowp.ke",
+  "scripts": {
+    "build": "wren build",
+    "dev": "wren dev"
+  },
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "12.16.1",
+      "onFail": "download"
+    }
+  },
+  "packageManager": "pnpm@12.16.1",
+  "type": "module",
+  "dependencies": {
+    "@preact/signals": "2.11.4",
+    "@wren-js/core": "0.29.0",
+    "@wren-js/preact": "0.29.0",
+    "preact": "11.1.1"
+  },
+  "devDependencies": {
+    "@slowpoketail/oxc": "1.8.0",
+    "oxfmt": "0.76.0",
+    "oxlint": "1.91.0"
+  }
 }

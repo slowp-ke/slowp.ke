@@ -1,0 +1,30 @@
+body {
+	margin: 0;
+}
+
+html,
+body {
+	background-color: #f9ded5;
+
+	width: 100dvw;
+	height: 100dvh;
+}
+
+kbd,
+span {
+	display: inline-block;
+	padding: 0.2em 0.4em;
+	font-size: 0.85em;
+	font-family: monospace;
+	background-color: #f0f0f0;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+}
+
+menu {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 1rem;
+	list-style: none;
+}

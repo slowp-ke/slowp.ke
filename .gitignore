@@ -1,7 +1,6 @@
-.astro/
+node_modules
+dist
+
 .DS_Store
-.env
-.wrangler/
-dist/
-node_modules/
-pnpm-debug.log*
+.env*
+Thumbs.db

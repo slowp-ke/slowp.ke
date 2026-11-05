@@ -1,35 +1,19 @@
 {
-	"[astro]": {
-		"editor.defaultFormatter": "astro-build.astro-vscode"
-	},
-	"[html][javascript][javascriptreact][json][jsonc][typescript][typescriptreact]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
 	"editor.codeActionsOnSave": {
-		"source.fixAll": "always",
-		"source.organizeImports": "never"
+		"source.fixAll.oxc": "explicit",
+		"source.format.oxc": "explicit",
+		"source.sort.json": "explicit"
 	},
-	"editor.detectIndentation": false,
-	"editor.formatOnSave": true,
+	"editor.defaultFormatter": "oxc.oxc-vscode",
 	"editor.insertSpaces": false,
-	"eslint.enable": true,
-	"eslint.useFlatConfig": true,
-	"eslint.validate": [
-		"astro",
-		"html",
-		"javascript",
-		"javascriptreact",
-		"typescript",
-		"typescriptreact"
-	],
+	"editor.tabSize": 2,
+	"eslint.enable": false,
 	"files.eol": "\n",
-	"files.insertFinalNewline": true,
 	"files.trimFinalNewlines": true,
 	"files.trimTrailingWhitespace": true,
-	"npm.packageManager": "pnpm",
-	"oxc.enable": false,
-	"prettier.documentSelectors": ["**/*.astro"],
-	"prettier.enable": true,
-	"typescript.enablePromptUseWorkspaceTsdk": true,
-	"typescript.tsdk": "./node_modules/typescript/lib"
+	"files.trimTrailingWhitespaceInRegexAndStrings": true,
+	"js/ts.experimental.useTsgo": true,
+	"js/ts.tsdk.path": "./node_modules/typescript",
+	"oxc.enable": true,
+	"prettier.enable": false
 }
