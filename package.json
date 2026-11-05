@@ -1,27 +1,29 @@
 {
-  "name": "slowp.ke",
-  "scripts": {
-    "build": "wren build",
-    "dev": "wren dev"
-  },
-  "devEngines": {
-    "packageManager": {
-      "name": "pnpm",
-      "version": "12.16.1",
-      "onFail": "download"
-    }
-  },
-  "packageManager": "pnpm@12.16.1",
-  "type": "module",
   "dependencies": {
     "@preact/signals": "2.11.4",
     "@wren-js/core": "0.29.0",
     "@wren-js/preact": "0.29.0",
-    "preact": "11.1.1"
+    "preact": "11.1.1",
+    "wrangler": "4.157.0"
   },
   "devDependencies": {
     "@slowpoketail/oxc": "1.8.0",
     "oxfmt": "0.76.0",
     "oxlint": "1.91.0"
-  }
+  },
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "onFail": "download",
+      "version": "12.16.1"
+    }
+  },
+  "name": "slowp.ke",
+  "packageManager": "pnpm@12.16.1",
+  "scripts": {
+    "build": "wren build",
+    "dev": "wren dev",
+    "wrangler": "wrangler"
+  },
+  "type": "module"
 }

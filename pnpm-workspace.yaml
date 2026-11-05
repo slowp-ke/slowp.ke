@@ -1,4 +1,7 @@
+allowBuilds:
+  esbuild: true
+  workerd: true
 minimumReleaseAgeExclude:
-  - '@wren-js/core@0.28.0 || 0.29.0'
-  - '@wren-js/preact@0.28.0 || 0.29.0'
+  - "@wren-js/core@0.28.0 || 0.29.0"
+  - "@wren-js/preact@0.28.0 || 0.29.0"
 saveExact: true
