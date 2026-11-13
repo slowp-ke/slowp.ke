@@ -13,7 +13,8 @@
 	"files.trimTrailingWhitespace": true,
 	"files.trimTrailingWhitespaceInRegexAndStrings": true,
 	"js/ts.experimental.useTsgo": true,
-	"js/ts.tsdk.path": "./node_modules/typescript",
+	"js/ts.tsdk.path": "./node_modules/tsrs/tsdk",
+	"js/ts.tsdk.promptToUseWorkspaceVersion": true,
 	"oxc.enable": true,
 	"prettier.enable": false
 }
